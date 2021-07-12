@@ -6,8 +6,7 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-
-<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="487.0" prefWidth="721.0" style="-fx-background-color: #171717;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1">
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="487.0" prefWidth="721.0" style="-fx-background-color: #171717;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.login_home">
    <center>
       <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
          <children>
@@ -16,12 +15,12 @@
                   <Font size="18.0" />
                </font>
             </Text>
-            <JFXButton alignment="CENTER" buttonType="RAISED" layoutX="447.0" layoutY="191.0" prefHeight="105.0" prefWidth="223.0" ripplerFill="WHITE" style="-fx-background-color: #95190C;" text="Log ind som bruger" textFill="WHITE">
+            <JFXButton fx:id="buttonUser" alignment="CENTER" buttonType="RAISED" layoutX="447.0" layoutY="191.0" prefHeight="105.0" prefWidth="223.0" ripplerFill="WHITE" style="-fx-background-color: #95190C;" text="Log ind som bruger" textFill="WHITE">
                <font>
                   <Font size="18.0" />
                </font>
             </JFXButton>
-            <JFXButton alignment="CENTER" buttonType="RAISED" layoutX="48.0" layoutY="191.0" prefHeight="105.0" prefWidth="223.0" ripplerFill="WHITE" style="-fx-background-color: #2E51B0 #2E51B0;" text="Log ind som seer" textFill="WHITE">
+            <JFXButton fx:id="buttonViewer" alignment="CENTER" buttonType="RAISED" layoutX="48.0" layoutY="191.0" prefHeight="105.0" prefWidth="223.0" ripplerFill="WHITE" style="-fx-background-color: #2E51B0 #2E51B0;" text="Log ind som seer" textFill="WHITE">
                <font>
                   <Font size="18.0" />
                </font>
