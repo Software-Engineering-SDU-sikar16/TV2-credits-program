@@ -1,4 +1,5 @@
-# TV2-credits-program
+# Software Engineering Semester Projekt Gruppe 18
+[Wiki logbog link](https://github.com/simonkaring/SE-Gruppe-18/wiki/Logbook)
 
 ## Running
 Run KrediteringSystem to populate database with information. 
@@ -14,6 +15,9 @@ Run KrediteringSystem to populate database with information.
 ```
 
 ## Scene builder 
+To set up GUI
+
+## Scene builder
 To set up GUI
 
 ## Running with database
