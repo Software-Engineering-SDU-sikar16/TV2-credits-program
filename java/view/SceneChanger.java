@@ -1,4 +1,4 @@
-package sample;
+package view;
 
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
@@ -17,7 +17,7 @@ public class SceneChanger
             window1 = FXMLLoader.load(getClass().getResource(fxml));
             Stage window1Stage;
             Scene window1Scene = new Scene(window1, 600, 500);
-            window1Stage = Main.homeStage;
+            window1Stage = Runner.homeStage;
             window1Stage.setScene(window1Scene);
         } catch (IOException e) {
             e.printStackTrace();
