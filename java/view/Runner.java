@@ -12,10 +12,8 @@ public class Runner extends Application {
     @Override
     public void start(Stage primaryStage) throws Exception{
         homeStage = primaryStage;
-//        Parent root = FXMLLoader.load(getClass().getResource("login.fxml"));
         Parent root = FXMLLoader.load(getClass().getResource("login_home.fxml"));
-//        Parent root = FXMLLoader.load(getClass().getResource("login-as-viewer-or-user.fxml"));
-        homeStage.setScene(new Scene(root, 900, 700));
+        homeStage.setScene(new Scene(root, 1000, 800));
         homeStage.show();
     }
 

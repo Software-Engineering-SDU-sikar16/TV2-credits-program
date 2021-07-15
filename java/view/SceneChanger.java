@@ -16,7 +16,7 @@ public class SceneChanger
         try {
             window1 = FXMLLoader.load(getClass().getResource(fxml));
             Stage window1Stage;
-            Scene window1Scene = new Scene(window1, 600, 500);
+            Scene window1Scene = new Scene(window1, 1000, 800);
             window1Stage = Runner.homeStage;
             window1Stage.setScene(window1Scene);
         } catch (IOException e) {
